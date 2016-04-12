@@ -1,0 +1,7 @@
+export PATH=$PATH:/root/enpower/llvm/llvm_37/install/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/root/enpower/llvm/llvm_37/install/lib
+export C_INCLUDE_PATH=$C_INCLUDE_PATH:/root/enpower/llvm/llvm_37/install/include
+export CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:/root/enpower/llvm/llvm_37/install/
+CC=clang
+CXX=clang++
+../configure --enable-shared --prefix=/root/enpower/pocl/hwloc/hwloc-1.11.2/install
